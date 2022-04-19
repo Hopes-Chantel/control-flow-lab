@@ -14,7 +14,7 @@
 human_age = int(input( 'Input a dogs age: ' ))
 
 if human_age <= 2:
-    dog_age = human_age * 2 
+    dog_age = human_age * 10 
 else: 
     dog_age = 20 + (human_age-2)*7
 

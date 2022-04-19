@@ -12,3 +12,13 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+def fib(x):
+    if x < 2:
+        return x
+    else:
+        return fib(x-2) + fib(x-1)
+
+
+for num in range(1, 50):
+    print("term: " + str(num) + " / number: " + str(fib(num)))
