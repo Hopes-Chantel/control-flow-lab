@@ -20,5 +20,5 @@ def fib(x):
         return fib(x-2) + fib(x-1)
 
 
-for num in range(1, 50):
+for num in range(0, 50):
     print("term: " + str(num) + " / number: " + str(fib(num)))
